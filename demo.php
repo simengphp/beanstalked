@@ -3,7 +3,7 @@
 
     use Pheanstalk\Pheanstalk;
 
-    $p = new Pheanstalk('47.97.108.227', 11300);
+    $p = new Pheanstalk('0.0.0.0', 11300);
 
     $data = array(
         'id' => 1,
